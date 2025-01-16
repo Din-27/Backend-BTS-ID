@@ -7,7 +7,7 @@ const router = require('express').Router()
  * checklist
  */
 
-// router.use(authMiddleware)
+router.use(authMiddleware)
 
 router.get('/', getChecklists)
 
